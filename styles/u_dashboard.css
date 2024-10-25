@@ -1,0 +1,89 @@
+body {
+    font-family: 'Product Sans', sans-serif;
+    background-image: url('https://e0.pxfuel.com/wallpapers/612/35/desktop-wallpaper-books-black-and-white-dark-library.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    width: auto;
+}
+
+h2 {
+    color: white;
+    border: solid black 2px;
+    background-color: black;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.welcome {
+    background-color: grey;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: white;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    border: solid black;
+}
+
+th {
+    background-color: grey;
+    color: white;
+}
+
+.action {
+    background-color: grey;
+    height: 50px;
+    color: white;
+    width: 80px;
+}
+
+.action:hover {
+    background-color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+td {
+    color: black;
+}
+
+a {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: grey;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    border: solid black;
+}
+
+a:hover {
+    background-color: black;
+    transition: 0.5s;
+}
+
+
+
+label {
+    font-size: 20px;
+}

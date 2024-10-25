@@ -1,0 +1,65 @@
+body {
+    font-family: 'Product Sans', sans-serif;
+    background-image: url('https://e0.pxfuel.com/wallpapers/612/35/desktop-wallpaper-books-black-and-white-dark-library.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.registration-form {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+        0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    width: 300px;
+}
+
+.registration-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.registration-form label {
+    margin-bottom: 5px;
+    display: block;
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="password"],
+.registration-form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.registration-form input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.registration-form input[type="submit"]:hover {
+    background-color: maroon;
+    transition: 0.5s;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    color: maroon;
+    transition: 0.5s;
+}

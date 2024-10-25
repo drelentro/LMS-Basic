@@ -1,0 +1,89 @@
+body {
+    font-family: 'Product Sans', sans-serif;
+    background-image: url('https://e0.pxfuel.com/wallpapers/612/35/desktop-wallpaper-books-black-and-white-dark-library.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.login-form h2,
+.login-form h3 {
+    margin: 0 0 20px 0;
+    color: #333;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.login-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.level {
+    text-align: center;
+}
+
+.login-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-form input[type="submit"]:hover {
+    background-color: maroon;
+    transition: 0.5s;
+}
+
+.login-form p {
+    margin-top: 20px;
+}
+
+.login-form a {
+    color: blue;
+    text-decoration: none;
+}
+
+.login-form a:hover {
+    text-decoration: underline;
+    color: maroon;
+    transition: 0.5s;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+}

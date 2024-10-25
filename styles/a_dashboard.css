@@ -1,0 +1,124 @@
+body {
+    font-family: 'Product Sans', sans-serif;
+    background-image: url("https://e0.pxfuel.com/wallpapers/612/35/desktop-wallpaper-books-black-and-white-dark-library.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    width: auto;
+
+}
+
+.welcome {
+    background-color: grey;
+}
+
+h2 {
+    color: white;
+    border: solid black 2px;
+    background-color: black;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: white;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+
+}
+
+th {
+    background-color: grey;
+    color: white;
+}
+
+td {
+    color: #333;
+}
+
+.form {
+    text-align: center;
+    background-color: grey;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: solid;
+    border-radius: 2px;
+    border-color: grey;
+    opacity: 90%;
+
+}
+
+input {
+    background-color: rgb(38, 36, 36);
+    color: white;
+}
+
+a {
+    display: inline-block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 10px;
+    background-color: grey;
+    color: white;
+    text-decoration: none;
+    border: solid black;
+    height: 20px;
+
+}
+
+#title,
+#author,
+#quantity {
+    height: 20px;
+}
+
+label {
+    font-size: 20px;
+}
+
+a:hover {
+    background-color: black;
+    transition: 0.5s;
+}
+
+.submit {
+    background-color: grey;
+    height: 50px;
+    border: solid black;
+}
+
+.submit:hover {
+    background-color: black;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+.act {
+    background-color: grey;
+    height: 30px;
+}
+
+.act:hover {
+    background-color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
